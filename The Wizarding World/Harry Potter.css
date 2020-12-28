@@ -1,0 +1,280 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../IMG/hp\ background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.header{
+    margin-bottom: 5px;
+}
+
+.logo{
+    width: 180px;
+    transform: translateX(30px);
+}
+
+.icon1{
+    width: 90px;
+    height: 90px;
+    transform: translateX(-20px);
+}
+
+.navbar{
+    background: rgba(139, 69, 19, 0.815);
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+    font-family: 'IM Fell French Canon SC', serif;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.text1{
+    flex-basis: 10%;
+    min-width: 300px;
+    color: white;
+}
+
+.text1 h1{
+    font-size: 80px;
+    font-family: 'Cinzel Decorative', cursive;
+    white-space: nowrap;
+    transform: translateX(-130%);
+    padding-top: 40%;
+    margin-top: 70%;
+}
+
+.text1 p{
+    font-size: 30px;
+    font-family: 'IM Fell French Canon SC', serif;
+    white-space: nowrap;
+    transform: translateX(-30%);
+    padding-top: 0%;
+}
+
+.button{
+    display: inline-block;
+    transform: translateX(10px);
+    background-color: sienna;
+    color: white;
+    padding: 13px 80px;
+    margin: 30px 0px;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+
+.button:hover{
+    background: saddlebrown;
+}
+
+.img1{
+    width: 100%;
+}
+
+.img2{
+    width: 100%;
+}
+
+.img3{
+    width: 100%;
+}
+
+.img4{
+    width: 100%;
+}
+
+.image-slider{
+    width: 700px;
+    height: 400px;
+    overflow: hidden;
+    margin-top: 30%;
+    margin-left: -45%;
+}
+
+.middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+}
+
+.navigation{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.bar{
+    width: 50px;
+    height: 10px;
+    border: 2px solid white;
+    margin: 6px;
+    cursor: pointer;
+    transition: 0.4s;
+    transform: translateY(435px);
+    margin-left: -53%
+}
+
+.bar:hover{
+    background: white;
+}
+
+input[name="r"]{
+    position: absolute;
+    visibility: hidden;
+}
+
+.slides{
+    width: 500%;
+    height: 100%;
+    display: flex;
+}
+
+.slide{
+    width: 20%;
+    transition: 0.6s;
+}
+
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+
+#r1:checked ~ .s1{
+    margin-left: -63%;
+}
+
+#r2:checked ~ .s1{
+    margin-left: -42%;
+}
+
+#r3:checked ~ .s1{
+    margin-left: -20%;
+}
+
+#r4:checked ~ .s1{
+    margin-left: 0%;
+}
+
+.img5{
+    background: white;
+    padding: 3px;
+    width: 300px;
+    margin-left: 55%;
+    margin-top: 17%;
+    transition: transform 0.5s;
+}
+
+.img5:hover{
+    transform: translateY(-7px);
+}
+
+.img6{
+    background: white;
+    padding: 3px;
+    width: 300px;
+    margin-left: 55%;
+    margin-top: 1%;
+    transition: transform 0.5s;
+}
+
+.img6:hover{
+    transform: translateY(-7px);
+}
+
+.img7{
+    background: white;
+    padding: 3px;
+    width: 300px;
+    margin-left: 77%;
+    transform: translateY(-213%);
+    transition: transform 0.5s;
+}
+
+.img7:hover{
+    transform: translateY(-219%);
+}
+
+.img8{
+    background: white;
+    padding: 3px;
+    width: 300px;
+    margin-left: 77%;
+    transform: translateY(-205%);
+    transition: transform 0.5s;
+}
+
+.img8:hover{
+    transform: translateY(-209%);
+}
+
+.footer{
+    background: rgba(139, 69, 19, 0.815);
+    color: white;
+    margin-top: auto;
+}
+
+.ron{
+    width: 220px;
+    transform: translateX(50px);
+}    
+
+.harry{
+    width: 220px;
+}
+
+.hermione{
+    width: 240px;
+    transform: translateX(-60px);
+}
+
+

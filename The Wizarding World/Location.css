@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../IMG/hp\ background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.location{
+    margin-left: 140px;
+    margin-top: 10px;
+}
+
+.elmnt{
+    width: 540px;
+    margin-left: 25%;
+    transform: translateY(-40%);
+}
+
+.location h1{
+    color: white;
+    font-size: 80px;
+    font-family: 'Cinzel Decorative', cursive;
+    transform: translateY(10%);
+    margin-left: 28%;
+}
